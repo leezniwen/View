@@ -1,16 +1,161 @@
 <html>
+
+    
     <head>
         <title>View</title>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     </head>
     <style>
+        #Inform {
+            margin-top: 5%;
+            margin-left: 5%;
+        }
+        .contain-view {
+            width: 250px;
+            height: 250px;
+            border: 3px solid #e7e7e7;
+        }
+        .contain_Img {
+            padding: 3% 3% 3% 3%;
+        }
 
+        .contain_txt {
+            text-align: center;
+        }
+        .contain_txt span {
+            font-family:'FangSong';
+            font-size: large;
+        }
+
+        .Button {
+            text-align: center;
+        }
+
+        .contain-view:hover {
+            transition:  box-shadow .3s;
+            box-shadow: 3px 3px 9px  #cacaca;
+        }
+
+        #TB1 td {
+            padding: 5% 5% 5% 5%;
+            width: 300px;
+        }
+
+        #TB1 {
+            margin-top: 5%;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
     </style>
     <script>
 
     </script>
     <body>
         <div id="Main">
-            
+            <nav class="nav navbar-default navbar-fixed-top">
+                <img class="navbar-brand" src="https://image.flaticon.com/icons/svg/2933/2933738.svg">
+                <ul class="nav navbar-nav">
+                    <li><a href="#Home" data-toggle="tab">Home</a></li>
+                    <li><a href="#Topic" data-toggle="tab">Topic</a></li>
+                </ul>
+            </nav>
+            <div id="Inform">
+                <table id="TB1">
+                    <tr >
+                        <td>
+                            <div class="contain-view">
+                                <div class="contain_Img">
+                                    <img src="img/7_star.jpg" style="width: 100%; height: 60%;">
+                                </div>
+                                <div class="contain_txt">
+                                    <span>七星潭</span>
+                                </div>
+                                <br/>
+                                <div class="Button" >
+                                    <button type="button" class="btn btn-primary"><a href="https://tour-hualien.hl.gov.tw/POI/36" style="text-decoration: none; color:#ffffff">Go</a></button>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="contain-view">
+                                <div class="contain_Img">
+                                    <img src="https://i.ytimg.com/vi/llhEpxAC0kg/maxresdefault.jpg" style="width: 100%; height:60%;">
+                                </div>
+                                <div class="contain_txt">
+                                    <span>龜山島</span>
+                                </div>
+                                <br/>
+                                <div class="Button" >
+                                    <button type="button" class="btn btn-primary"><a href="https://blog.xuite.net/liu6534588/twblog/169249428-%E9%BE%9C%E5%B1%B1%E5%B3%B6%E7%B0%A1%E4%BB%8B" style="text-decoration: none; color:#ffffff">Go</a></button>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="contain-view">
+                                <div class="contain_Img">
+                                    <img src="https://c1.staticflickr.com/5/4246/34238458973_df2be93429_b.jpg" style="width: 100%; height:60%;">
+                                </div>
+                                <div class="contain_txt">
+                                    <span>幾米公園</span>
+                                </div>
+                                <br/>
+                                <div class="Button" >
+                                    <button type="button" class="btn btn-primary"><a href="https://travel.yilan.tw/zh-tw/attraction/details/232" style="text-decoration: none; color:#ffffff">Go</a></button>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="contain-view">
+                                <div class="contain_Img">
+                                    <img src="https://fish-taiwan.org/wp-content/uploads/2020/06/08%E9%AB%98%E9%9B%84_%E5%BD%8C%E9%99%80%E5%8D%97%E5%AF%AE%E6%BC%81%E6%B8%AF_%E6%B8%B8%E5%BF%A0%E9%9C%96%E6%94%9D0083F-scaled.jpg" style="width: 100%; height:60%;">
+                                </div>
+                                <div class="contain_txt">
+                                    <span>彌陀南寮漁港</span>
+                                </div>
+                                <br/>
+                                <div class="Button" >
+                                    <button type="button" class="btn btn-primary"><a href="https://www.travelking.com.tw/tourguide/scenery104797.html" style="text-decoration: none; color:#ffffff">Go</a></button>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="contain-view">
+                                <div class="contain_Img">
+                                    <img src="https://www.esunfhc.com/zh-tw/-/media/esunfoundation/images/activity/ecology/national-park/890x300-7-1.jpg?la=zh-tw" style="width: 100%; height:60%;">
+                                </div>
+                                <div class="contain_txt">
+                                    <span>玉山國家公園</span>
+                                </div>
+                                <br/>
+                                <div class="Button" >
+                                    <button type="button" class="btn btn-primary"><a href="https://www.travelking.com.tw/tourguide/scenery228.html" style="text-decoration: none; color:#ffffff">Go</a></button>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="contain-view">
+                                <div class="contain_Img">
+                                    <img src="https://www.nantou.gov.tw/upload/120950-m1_1.jpg" style="width: 100%; height:60%;">
+                                </div>
+                                <div class="contain_txt">
+                                    <span>合歡山</span>
+                                </div>
+                                <br/>
+                                <div class="Button" >
+                                    <button type="button" class="btn btn-primary"><a href="https://www.travelking.com.tw/tourguide/scenery109.html" style="text-decoration: none; color:#ffffff">Go</a></button>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
         </div>
+
     </body>
 </html>
